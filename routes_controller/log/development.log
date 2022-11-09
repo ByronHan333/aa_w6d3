@@ -7,3 +7,14 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 2794)
 
 
+Started GET "/" for 127.0.0.1 at 2022-11-09 15:38:55 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/byronhan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/byronhan/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 527)
+Completed 200 OK in 12ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2794)
+
+
+Started GET "/users" for ::1 at 2022-11-09 15:41:43 -0800
+
+AbstractController::ActionNotFound - The action 'index' could not be found for UsersController:
+
